@@ -1,0 +1,24 @@
+.redes-socias>.item‐icone-facebook, .redes-socias>.item‐icone-instagran {
+    height: 30px;
+    width: 30px;
+}
+.container-sobre-nos{
+    background-image: url('/assets/imagen-sistema/fundo-sobre-nos.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.justificado-certo {
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto
+}
+.container-sobre-nos-card{
+    font-family: monospace;
+    padding: 20px;
+    border: 1px solid #0e6252;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, .8);
+}

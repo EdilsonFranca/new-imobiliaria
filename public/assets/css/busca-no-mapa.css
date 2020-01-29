@@ -1,0 +1,67 @@
+#map {
+    height: 100%;
+}
+
+html,
+body {
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+
+.redes-socias>.item‐icone-facebook,
+.redes-socias>.item‐icone-instagran {
+    height: 30px;
+    width: 30px;
+}
+
+.rodape-principa {
+    overflow: hidden
+}
+
+.gm-style-iw.gm-style-iw-c {
+    width: 341px;
+}
+
+.link-card-mapa,
+.carousel,
+.carousel>.carousel-inner,
+.carousel>.carousel-inner>.carousel-item,
+.carousel>.carousel-inner>.carousel-item>img {
+    height: 200px;
+    width: 100%
+}
+.card-mapa>img{
+  height: 190px;
+}
+
+.item‐icone {
+    width: 25px;
+    height: 25px;
+}
+
+.list-pane-mapa {
+    z-index: 10;
+    position: absolute;
+    top: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.titulo-card-mapa {
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.gm-style .gm-style-iw-c{
+    padding: 0;
+}
+.gm-style .gm-style-iw-d{
+    margin: 0 !important;
+    overflow: visible !important;
+    max-width: 350px !important;
+}
+@media only screen and (min-width: 600px) {
+    .titulo-card-mapa {
+        font-size: 17px;
+    }
+}

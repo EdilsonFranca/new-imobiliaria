@@ -1,0 +1,118 @@
+@media only screen and (min-width: 600px) {
+    .card-imovel {
+        height: 250px;
+        border-radius: 4px;
+    }
+    .formulario-fixo {
+        position: sticky;
+        top: 20px
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #btnContainer {
+        display: none;
+    }
+    .card-imovel {
+        border-radius: 4px;
+        margin: auto;
+    }
+    .titulo-card {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 14px;
+        color: #000;
+    }
+    .descricao {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 16px;
+        text-align: left;
+    }
+    .descricao-text {
+        display: none;
+    }
+    .descricao-item:nth-child(3)::after {
+        content: '';
+        display: block;
+    }
+    .cep {
+        display: none
+    }
+}
+
+.item‐icone-foto {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    display: block;
+    z-index: 100;
+    float: right;
+    right: -5px;
+    bottom: -20px;
+}
+
+.carousel-item.active>.num-fotos {
+    position: absolute;
+    bottom: 1px;
+    right: 70px;
+    font-size: 21px;
+}
+
+.item‐icone-info {
+    width: 30px;
+    height: 30px;
+    fill: orange;
+}
+
+.formulario>form {
+    background: #f5f5f5;
+}
+
+.card-imovel:hover {
+    -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .6);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .6);
+}
+
+.card-imovel {
+    background: #f5f5f5
+}
+
+input:checked+label {
+    color: white;
+    background-color: #28a745;
+}
+
+.carousel, .carousel>.carousel-inner, .carousel>.carousel-inner>.carousel-item, .carousel>.carousel-inner>.carousel-item>img {
+    height: 250px;
+    width: 100%
+}
+
+/*gride  inicio*/
+
+.column {
+    float: right;
+    width: 48%;
+}
+
+/* Style the buttons */
+
+.btn-gride {
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btn-gride:hover {
+    background-color: #ddd;
+}
+
+.btn-gride.active {
+    background-color: #666;
+    color: white;
+}
+
+/*gride  fim*/
+
+.pagination {
+    margin: auto
+}

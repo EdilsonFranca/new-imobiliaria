@@ -1,0 +1,95 @@
+.container-prinncipal {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #0e6252;
+}
+
+.formulario-fale-conosco {
+    font-family: monospace;
+    padding: 20px;
+    border: 1px solid #0e6252;
+    border-radius: 10px;
+    height: 456px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.input-field input, textarea {
+    margin: -3px;
+    width: 98%;
+    display: block;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 1px #1abc9c;
+    -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+    background-position: -200px 0;
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    color: #0e6252;
+}
+
+input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.input-field label {
+    color: #9e9e9e;
+    font-size: 16px;
+    position: absolute;
+    top: 12px;
+    transition: .3s ease-out;
+}
+
+.buttom {
+    cursor: pointer;
+    border: 1px solid #0e6252;
+    border-radius: 30px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    color: #0e6252;
+    font-family: Boogaloo;
+    font-size: 13pt;
+    background-color: #fff;
+}
+
+.buttom:hover {
+    background-color: #0e6252;
+    color: #fff;
+}
+
+.whatshapp-contato-svg, .tell-contato-svg, .email-contato-svg {
+    width: 80px;
+    height: 80px;
+    fill: #fff;
+}
+
+.whatshapp-contato-span, .tell-contato-span, .email-contato-span {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #f47e30;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+@media only screen and (min-width: 600px) {
+    .container-prinncipal {
+        background-image: url('/assets/imagen-sistema/contact-3.jpg');
+    }
+    .whatshapp-contato-svg, .tell-contato-svg, .email-contato-svg {
+        width: 40px;
+        height: 40px;
+        fill: #0e6252;
+    }
+    .whatshapp-contato-span, .tell-contato-span, .email-contato-span {
+        border-bottom: 1px solid hsl(169, 75%, 22%);
+    }
+}
